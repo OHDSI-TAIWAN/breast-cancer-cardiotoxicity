@@ -1,0 +1,188 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 44834729,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "423.9",
+          "VOCABULARY_ID": "ICD9CM",
+          "CONCEPT_NAME": "Unspecified disease of pericardium",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "4-dig billing code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45586577,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I31.3",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Pericardial effusion (noninflammatory)",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 35207722,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I31.3",
+          "VOCABULARY_ID": "ICD10CM",
+          "CONCEPT_NAME": "Pericardial effusion (noninflammatory)",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "4-char billing code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4238032,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "57231008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acute pericardial effusion",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 44808831,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "842701000000106",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Chronic pericardial effusion",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4161701,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "373945007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Pericardial effusion",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108814,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194970009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Pericardial effusion - noninflammatory",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }
+    ]},
+    "name": "[Female_Cancer]_pericardial_effusion",
+    "id": 0
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [],
+    "Type": "ALL",
+    "DemographicCriteriaList": [{
+      "Ethnicity": null,
+      "OccurrenceEndDate": null,
+      "Race": null,
+      "Gender": [{
+        "INVALID_REASON_CAPTION": "Unknown",
+        "CONCEPT_ID": 8532,
+        "STANDARD_CONCEPT": null,
+        "CONCEPT_CODE": "F",
+        "VOCABULARY_ID": "Gender",
+        "CONCEPT_NAME": "FEMALE",
+        "DOMAIN_ID": "Gender",
+        "STANDARD_CONCEPT_CAPTION": "Unknown",
+        "CONCEPT_CLASS_ID": null,
+        "INVALID_REASON": null
+      }],
+      "OccurrenceStartDate": null,
+      "Age": null
+    }],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

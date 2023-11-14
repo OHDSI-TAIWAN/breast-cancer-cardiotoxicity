@@ -1,0 +1,113 @@
+"database_id","exposure_id","target_id","comparator_id","outcome_id","analysis_id","sequence_number","description","subjects"
+"TMU_CRD",239,239,237,59,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,59,1,2,"No prior outcome",1687
+"TMU_CRD",239,239,237,59,1,3,"Have at least 1 days at risk",1670
+"TMU_CRD",239,239,237,59,1,4,"Matched on propensity score",485
+"TMU_CRD",237,239,237,59,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,59,1,2,"No prior outcome",1670
+"TMU_CRD",237,239,237,59,1,3,"Have at least 1 days at risk",1658
+"TMU_CRD",237,239,237,59,1,4,"Matched on propensity score",485
+"TMU_CRD",239,239,237,60,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,60,1,2,"No prior outcome",1833
+"TMU_CRD",239,239,237,60,1,3,"Have at least 1 days at risk",1816
+"TMU_CRD",239,239,237,60,1,4,"Matched on propensity score",512
+"TMU_CRD",237,239,237,60,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,60,1,2,"No prior outcome",1732
+"TMU_CRD",237,239,237,60,1,3,"Have at least 1 days at risk",1720
+"TMU_CRD",237,239,237,60,1,4,"Matched on propensity score",512
+"TMU_CRD",239,239,237,61,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,61,1,2,"No prior outcome",1942
+"TMU_CRD",239,239,237,61,1,3,"Have at least 1 days at risk",1925
+"TMU_CRD",239,239,237,61,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,61,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,61,1,2,"No prior outcome",1763
+"TMU_CRD",237,239,237,61,1,3,"Have at least 1 days at risk",1750
+"TMU_CRD",237,239,237,61,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,63,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,63,1,2,"No prior outcome",1812
+"TMU_CRD",239,239,237,63,1,3,"Have at least 1 days at risk",1795
+"TMU_CRD",239,239,237,63,1,4,"Matched on propensity score",504
+"TMU_CRD",237,239,237,63,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,63,1,2,"No prior outcome",1708
+"TMU_CRD",237,239,237,63,1,3,"Have at least 1 days at risk",1696
+"TMU_CRD",237,239,237,63,1,4,"Matched on propensity score",504
+"TMU_CRD",239,239,237,274,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,274,1,2,"No prior outcome",1942
+"TMU_CRD",239,239,237,274,1,3,"Have at least 1 days at risk",1925
+"TMU_CRD",239,239,237,274,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,274,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,274,1,2,"No prior outcome",1763
+"TMU_CRD",237,239,237,274,1,3,"Have at least 1 days at risk",1750
+"TMU_CRD",237,239,237,274,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,277,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,277,1,2,"No prior outcome",1930
+"TMU_CRD",239,239,237,277,1,3,"Have at least 1 days at risk",1913
+"TMU_CRD",239,239,237,277,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,277,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,277,1,2,"No prior outcome",1762
+"TMU_CRD",237,239,237,277,1,3,"Have at least 1 days at risk",1749
+"TMU_CRD",237,239,237,277,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,281,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,281,1,2,"No prior outcome",1942
+"TMU_CRD",239,239,237,281,1,3,"Have at least 1 days at risk",1925
+"TMU_CRD",239,239,237,281,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,281,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,281,1,2,"No prior outcome",1763
+"TMU_CRD",237,239,237,281,1,3,"Have at least 1 days at risk",1750
+"TMU_CRD",237,239,237,281,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,283,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,283,1,2,"No prior outcome",1939
+"TMU_CRD",239,239,237,283,1,3,"Have at least 1 days at risk",1922
+"TMU_CRD",239,239,237,283,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,283,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,283,1,2,"No prior outcome",1763
+"TMU_CRD",237,239,237,283,1,3,"Have at least 1 days at risk",1750
+"TMU_CRD",237,239,237,283,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,284,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,284,1,2,"No prior outcome",1942
+"TMU_CRD",239,239,237,284,1,3,"Have at least 1 days at risk",1925
+"TMU_CRD",239,239,237,284,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,284,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,284,1,2,"No prior outcome",1763
+"TMU_CRD",237,239,237,284,1,3,"Have at least 1 days at risk",1750
+"TMU_CRD",237,239,237,284,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,285,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,285,1,2,"No prior outcome",1942
+"TMU_CRD",239,239,237,285,1,3,"Have at least 1 days at risk",1925
+"TMU_CRD",239,239,237,285,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,285,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,285,1,2,"No prior outcome",1763
+"TMU_CRD",237,239,237,285,1,3,"Have at least 1 days at risk",1750
+"TMU_CRD",237,239,237,285,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,286,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,286,1,2,"No prior outcome",1942
+"TMU_CRD",239,239,237,286,1,3,"Have at least 1 days at risk",1925
+"TMU_CRD",239,239,237,286,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,286,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,286,1,2,"No prior outcome",1763
+"TMU_CRD",237,239,237,286,1,3,"Have at least 1 days at risk",1750
+"TMU_CRD",237,239,237,286,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,290,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,290,1,2,"No prior outcome",1848
+"TMU_CRD",239,239,237,290,1,3,"Have at least 1 days at risk",1831
+"TMU_CRD",239,239,237,290,1,4,"Matched on propensity score",513
+"TMU_CRD",237,239,237,290,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,290,1,2,"No prior outcome",1732
+"TMU_CRD",237,239,237,290,1,3,"Have at least 1 days at risk",1720
+"TMU_CRD",237,239,237,290,1,4,"Matched on propensity score",513
+"TMU_CRD",239,239,237,291,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,291,1,2,"No prior outcome",1929
+"TMU_CRD",239,239,237,291,1,3,"Have at least 1 days at risk",1912
+"TMU_CRD",239,239,237,291,1,4,"Matched on propensity score",531
+"TMU_CRD",237,239,237,291,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,291,1,2,"No prior outcome",1761
+"TMU_CRD",237,239,237,291,1,3,"Have at least 1 days at risk",1748
+"TMU_CRD",237,239,237,291,1,4,"Matched on propensity score",531
+"TMU_CRD",239,239,237,292,1,1,"Original cohorts",1942
+"TMU_CRD",239,239,237,292,1,2,"No prior outcome",1833
+"TMU_CRD",239,239,237,292,1,3,"Have at least 1 days at risk",1816
+"TMU_CRD",239,239,237,292,1,4,"Matched on propensity score",512
+"TMU_CRD",237,239,237,292,1,1,"Original cohorts",1763
+"TMU_CRD",237,239,237,292,1,2,"No prior outcome",1731
+"TMU_CRD",237,239,237,292,1,3,"Have at least 1 days at risk",1719
+"TMU_CRD",237,239,237,292,1,4,"Matched on propensity score",512

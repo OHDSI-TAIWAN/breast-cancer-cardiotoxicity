@@ -1,0 +1,341 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45548018,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I39.1",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Aortic valve disorders in diseases classified elsewhere",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45543173,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I39",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Endocarditis and heart valve disorders in diseases classified elsewhere",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 Hierarchy",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 35207749,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I39",
+          "VOCABULARY_ID": "ICD10CM",
+          "CONCEPT_NAME": "Endocarditis and heart valve disorders in diseases classified elsewhere",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "3-char billing code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45552789,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I39.8",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Endocarditis, valve unspecified, in diseases classified elsewhere",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45533448,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I39.0",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Mitral valve disorders in diseases classified elsewhere",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45596202,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I39.3",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Pulmonary valve disorders in diseases classified elsewhere",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45543174,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "I39.2",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Tricuspid valve disorders in diseases classified elsewhere",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45587449,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "Q23.0",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Congenital stenosis of aortic valve",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 35210816,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "Q23.0",
+          "VOCABULARY_ID": "ICD10CM",
+          "CONCEPT_NAME": "Congenital stenosis of aortic valve",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "4-char billing code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 35210820,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "Q23.4",
+          "VOCABULARY_ID": "ICD10CM",
+          "CONCEPT_NAME": "Hypoplastic left heart syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "4-char billing code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45548889,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "Q24.4",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Congenital subaortic stenosis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 35210827,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "Q24.4",
+          "VOCABULARY_ID": "ICD10CM",
+          "CONCEPT_NAME": "Congenital subaortic stenosis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "4-char billing code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45534370,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "Q25.3",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Stenosis of aorta",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45592365,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "Q22.4",
+          "VOCABULARY_ID": "ICD10",
+          "CONCEPT_NAME": "Congenital tricuspid stenosis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "ICD10 code",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4343040,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "N0000001443",
+          "VOCABULARY_ID": "NDFRT",
+          "CONCEPT_NAME": "Heart Valve Diseases",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Ind / CI",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4343040,
+          "STANDARD_CONCEPT": "N",
+          "CONCEPT_CODE": "N0000001443",
+          "VOCABULARY_ID": "NDFRT",
+          "CONCEPT_NAME": "Heart Valve Diseases",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+          "CONCEPT_CLASS_ID": "Ind / CI",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      }
+    ]},
+    "name": "[Female_Cancer]_heart_valve_disease",
+    "id": 0
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [],
+    "Type": "ALL",
+    "DemographicCriteriaList": [{
+      "Ethnicity": null,
+      "OccurrenceEndDate": null,
+      "Race": null,
+      "Gender": [{
+        "INVALID_REASON_CAPTION": "Unknown",
+        "CONCEPT_ID": 8532,
+        "STANDARD_CONCEPT": null,
+        "CONCEPT_CODE": "F",
+        "VOCABULARY_ID": "Gender",
+        "CONCEPT_NAME": "FEMALE",
+        "DOMAIN_ID": "Gender",
+        "STANDARD_CONCEPT_CAPTION": "Unknown",
+        "CONCEPT_CLASS_ID": null,
+        "INVALID_REASON": null
+      }],
+      "OccurrenceStartDate": null,
+      "Age": null
+    }],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

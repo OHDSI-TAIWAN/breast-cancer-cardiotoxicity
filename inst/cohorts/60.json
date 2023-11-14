@@ -1,0 +1,103 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 372654,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "425882004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Paralytic syndrome as late effect of stroke",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 381591,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "62914000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Cerebrovascular disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }
+    ]},
+    "name": "stroke",
+    "id": 0
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [],
+    "Type": "ALL",
+    "DemographicCriteriaList": [{
+      "Ethnicity": null,
+      "OccurrenceEndDate": null,
+      "Race": null,
+      "Gender": [{
+        "INVALID_REASON_CAPTION": "Unknown",
+        "CONCEPT_ID": 8532,
+        "STANDARD_CONCEPT": null,
+        "CONCEPT_CODE": "F",
+        "VOCABULARY_ID": "Gender",
+        "CONCEPT_NAME": "FEMALE",
+        "DOMAIN_ID": "Gender",
+        "STANDARD_CONCEPT_CAPTION": "Unknown",
+        "CONCEPT_CLASS_ID": null,
+        "INVALID_REASON": null
+      }],
+      "OccurrenceStartDate": null,
+      "Age": null
+    }],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

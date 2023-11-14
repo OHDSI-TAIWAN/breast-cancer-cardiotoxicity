@@ -1,0 +1,154 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [{
+      "isExcluded": false,
+      "concept": {
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_ID": 4329847,
+        "STANDARD_CONCEPT": "S",
+        "CONCEPT_CODE": "22298006",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_NAME": "Myocardial infarction",
+        "DOMAIN_ID": "Condition",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "CONCEPT_CLASS_ID": "Clinical Finding",
+        "INVALID_REASON": "V"
+      },
+      "includeMapped": false,
+      "includeDescendants": true
+    }]},
+    "name": "Female Cancer MI Newly diagnose",
+    "id": 0
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [],
+    "Type": "ALL",
+    "DemographicCriteriaList": [{
+      "Ethnicity": null,
+      "OccurrenceEndDate": null,
+      "Race": null,
+      "Gender": [{
+        "INVALID_REASON_CAPTION": "Unknown",
+        "CONCEPT_ID": 8532,
+        "STANDARD_CONCEPT": null,
+        "CONCEPT_CODE": "F",
+        "VOCABULARY_ID": "Gender",
+        "CONCEPT_NAME": "FEMALE",
+        "DOMAIN_ID": "Gender",
+        "STANDARD_CONCEPT_CAPTION": "Unknown",
+        "CONCEPT_CLASS_ID": null,
+        "INVALID_REASON": null
+      }],
+      "OccurrenceStartDate": null,
+      "Age": null
+    }],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [{
+    "expression": {
+      "CriteriaList": [{
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": null,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"ConditionOccurrence": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "ConditionTypeExclude": false,
+          "CodesetId": 0,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "VisitType": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "ConditionType": null,
+          "ConditionSourceConcept": null,
+          "ConditionStatus": null,
+          "StopReason": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      }],
+      "Type": "ALL",
+      "DemographicCriteriaList": [{
+        "Ethnicity": null,
+        "OccurrenceEndDate": null,
+        "Race": null,
+        "Gender": [{
+          "INVALID_REASON_CAPTION": "Unknown",
+          "CONCEPT_ID": 8532,
+          "STANDARD_CONCEPT": null,
+          "CONCEPT_CODE": "F",
+          "VOCABULARY_ID": "Gender",
+          "CONCEPT_NAME": "FEMALE",
+          "DOMAIN_ID": "Gender",
+          "STANDARD_CONCEPT_CAPTION": "Unknown",
+          "CONCEPT_CLASS_ID": null,
+          "INVALID_REASON": null
+        }],
+        "OccurrenceStartDate": null,
+        "Age": {
+          "Op": "gt",
+          "Extent": null,
+          "Value": 18
+        }
+      }],
+      "Groups": [],
+      "Count": null
+    },
+    "name": "Age",
+    "description": null
+  }],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 365,
+      "PriorDays": 0
+    }
+  }
+}

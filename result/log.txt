@@ -1,0 +1,1044 @@
+2023-11-06 11:31:51	[Main thread]	WARN	breastCancer	execute	andromedaTempFolder '/tmp/andromedaTemp' not found. Attempting to create folder
+2023-11-06 11:31:51	[Main thread]	INFO	breastCancer	execute	Checking whether correct package versions are installed 
+2023-11-06 11:31:51	[Main thread]	FATAL	breastCancer	verifyDependencies	Mismatch between required and installed package versions. Did you forget to run renv::restore()? - Package rlang version 1.1.2 should be 1.0.1 - Package glue version 1.6.2 should be 1.6.1 - Package cli version 3.6.1 should be 3.1.1 - Package lifecycle version 1.0.3 should be 1.0.1 - Package vctrs version 0.6.4 should be 0.3.8 - Package fastmap version 1.1.1 should be 1.1.0 - Package pillar version 1.9.0 should be 1.6.5 - Package purrr version 1.0.2 should be 0.3.4 - Package tibble version 3.2.1 should be 3.1.6 - Package tidyselect version 1.2.0 should be 1.1.1 - Package withr version 2.5.2 should be 2.4.3 - Package DBI version 1.1.3 should be 1.1.2 - Package dplyr version 1.1.3 should be 1.0.7 - Package vroom version 1.6.4 should be 1.5.7 - Package dbplyr version 2.4.0 should be 2.1.1 - Package jsonlite version 1.8.7 should be 1.7.3 - Package readr version 2.1.4 should be 2.1.2 - Package scales version 1.2.1 should be 1.1.1 - Package SqlRender version 1.16.1 should be 1.8.3 - Package stringr version 1.5.0 should be 1.4.0 - Package Andromeda version 0.6.3 should be 0.6.0 - Package DatabaseConnector version 6.2.4 should be 5.0.2 - Package ggplot2 version 3.4.4 should be 3.3.5 - Package ParallelLogger version 3.3.0 should be 3.0.0 - Package plyr version 1.8.9 should be 1.8.6 - Package RcppEigen version 0.3.3.9.4 should be 0.3.3.9.1 - Package Cyclops version 3.4.0 should be 3.1.2 - Package EmpiricalCalibration version 3.1.1 should be 3.0.0 - Package FeatureExtraction version 3.3.1 should be 3.2.0 - Package CohortGenerator version 0.8.1 should be 0.4.0 - Package CohortMethod version 5.1.0 should be 4.2.2 - Package MethodEvaluation version 2.3.0 should be 2.2.0
+2023-11-06 11:32:00	[Main thread]	INFO	breastCancer	execute	Checking whether correct package versions are installed 
+2023-11-06 11:32:00	[Main thread]	FATAL	breastCancer	verifyDependencies	Mismatch between required and installed package versions. Did you forget to run renv::restore()? - Package rlang version 1.1.2 should be 1.0.1 - Package glue version 1.6.2 should be 1.6.1 - Package cli version 3.6.1 should be 3.1.1 - Package lifecycle version 1.0.3 should be 1.0.1 - Package vctrs version 0.6.4 should be 0.3.8 - Package fastmap version 1.1.1 should be 1.1.0 - Package pillar version 1.9.0 should be 1.6.5 - Package purrr version 1.0.2 should be 0.3.4 - Package tibble version 3.2.1 should be 3.1.6 - Package tidyselect version 1.2.0 should be 1.1.1 - Package withr version 2.5.2 should be 2.4.3 - Package DBI version 1.1.3 should be 1.1.2 - Package dplyr version 1.1.3 should be 1.0.7 - Package vroom version 1.6.4 should be 1.5.7 - Package dbplyr version 2.4.0 should be 2.1.1 - Package jsonlite version 1.8.7 should be 1.7.3 - Package readr version 2.1.4 should be 2.1.2 - Package scales version 1.2.1 should be 1.1.1 - Package SqlRender version 1.16.1 should be 1.8.3 - Package stringr version 1.5.0 should be 1.4.0 - Package Andromeda version 0.6.3 should be 0.6.0 - Package DatabaseConnector version 6.2.4 should be 5.0.2 - Package ggplot2 version 3.4.4 should be 3.3.5 - Package ParallelLogger version 3.3.0 should be 3.0.0 - Package plyr version 1.8.9 should be 1.8.6 - Package RcppEigen version 0.3.3.9.4 should be 0.3.3.9.1 - Package Cyclops version 3.4.0 should be 3.1.2 - Package EmpiricalCalibration version 3.1.1 should be 3.0.0 - Package FeatureExtraction version 3.3.1 should be 3.2.0 - Package CohortGenerator version 0.8.1 should be 0.4.0 - Package CohortMethod version 5.1.0 should be 4.2.2 - Package MethodEvaluation version 2.3.0 should be 2.2.0
+2023-11-06 11:34:38	[Main thread]	INFO	breastCancer	execute	Checking whether correct package versions are installed 
+2023-11-06 11:34:38	[Main thread]	INFO	breastCancer	execute	Creating exposure and outcome cohorts 
+2023-11-06 11:34:39	[Main thread]	INFO	DatabaseConnector	connect	Connecting using SQL Server driver
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table OHDSI_ACHILLES.dbo.bcCohort
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table OHDSI_ACHILLES.dbo.bcCohort_inclusion
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table OHDSI_ACHILLES.dbo.bcCohort_inclusion_result
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table OHDSI_ACHILLES.dbo.bcCohort_inclusion_stats
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table OHDSI_ACHILLES.dbo.bcCohort_summary_stats
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	logCreateTableMessage	- Created table OHDSI_ACHILLES.dbo.bcCohort_censor_stats
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	createCohortTables	Creating cohort tables took 0.16secs
+2023-11-06 11:34:39	[Main thread]	INFO	CohortGenerator	getCohortDefinitionSet	Loading cohortDefinitionSet
+2023-11-06 11:34:40	[Main thread]	TRACE	CohortGenerator	generateCohortSet	Initiating cluster constisting only of main thread
+2023-11-06 11:34:40	[Main thread]	INFO	CohortGenerator	FUN	1/16- Generating cohort: Female_cancer_Breast_Cancer_with_Aromatase_Inhibitor
+2023-11-06 11:34:51	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 11.5 secs
+2023-11-06 11:34:51	[Main thread]	INFO	CohortGenerator	FUN	2/16- Generating cohort: Female_cancer_Breast_Cancer_with_Estrogen_Receptor
+2023-11-06 11:34:59	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 7.51 secs
+2023-11-06 11:34:59	[Main thread]	INFO	CohortGenerator	FUN	3/16- Generating cohort: (Demo 2) Female Cancer Myocardial infarction
+2023-11-06 11:35:03	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 3.93 secs
+2023-11-06 11:35:03	[Main thread]	INFO	CohortGenerator	FUN	4/16- Generating cohort: Female_Cancer_arrhytmia
+2023-11-06 11:35:08	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 5.15 secs
+2023-11-06 11:35:08	[Main thread]	INFO	CohortGenerator	FUN	5/16- Generating cohort: (Demo 2) Female Cancer Stroke
+2023-11-06 11:35:15	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 7.25 secs
+2023-11-06 11:35:15	[Main thread]	INFO	CohortGenerator	FUN	6/16- Generating cohort: Female_Cancer_stroke
+2023-11-06 11:35:20	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 5.19 secs
+2023-11-06 11:35:20	[Main thread]	INFO	CohortGenerator	FUN	7/16- Generating cohort: Female_Cancer_Cardiomyopathy
+2023-11-06 11:35:21	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.789 secs
+2023-11-06 11:35:21	[Main thread]	INFO	CohortGenerator	FUN	8/16- Generating cohort: [female_cancer]_Bradycardia
+2023-11-06 11:35:22	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.738 secs
+2023-11-06 11:35:22	[Main thread]	INFO	CohortGenerator	FUN	9/16- Generating cohort: COPY OF Female_Cancer_Myocardial_Infarction
+2023-11-06 11:35:23	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 1.14 secs
+2023-11-06 11:35:23	[Main thread]	INFO	CohortGenerator	FUN	10/16- Generating cohort: [Female_Cancer]_pericardial_effusion
+2023-11-06 11:35:23	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.474 secs
+2023-11-06 11:35:23	[Main thread]	INFO	CohortGenerator	FUN	11/16- Generating cohort: Female_Cohort_blood_clots
+2023-11-06 11:35:24	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.281 secs
+2023-11-06 11:35:24	[Main thread]	INFO	CohortGenerator	FUN	12/16- Generating cohort: Female_Cancer_Cardiovascular_Diseases
+2023-11-06 11:35:30	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 6.37 secs
+2023-11-06 11:35:30	[Main thread]	INFO	CohortGenerator	FUN	13/16- Generating cohort: [Female_Cancer]_heart_valve_disease
+2023-11-06 11:35:31	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.939 secs
+2023-11-06 11:35:31	[Main thread]	INFO	CohortGenerator	FUN	14/16- Generating cohort: [Female_Cancer}_Constrictive Pericarditis
+2023-11-06 11:35:31	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.288 secs
+2023-11-06 11:35:31	[Main thread]	INFO	CohortGenerator	FUN	15/16- Generating cohort: [Female_Cancer]_congestive_heart_failure
+2023-11-06 11:35:32	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.245 secs
+2023-11-06 11:35:32	[Main thread]	INFO	CohortGenerator	FUN	16/16- Generating cohort: (Demo 2) Female Cancer Coronary arteriosclerosis
+2023-11-06 11:35:33	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 1.68 secs
+2023-11-06 11:35:33	[Main thread]	INFO	breastCancer	createCohorts	Creating negative control outcome cohorts 
+2023-11-06 11:35:35	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 1.72 secs
+2023-11-06 11:35:35	[Main thread]	INFO	breastCancer	createCohorts	Counting cohorts 
+2023-11-06 11:35:35	[Main thread]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 21 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:35	[Main thread]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 21 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:35	[Main thread]	INFO	CohortGenerator	getCohortCounts	Counting cohorts took 0.323 secs
+2023-11-06 11:35:35	[Main thread]	INFO	breastCancer	execute	Running CohortMethod analyses 
+2023-11-06 11:35:36	[Main thread]	TRACE	CohortMethod	loadCmAnalysisList	Loading cmAnalysisList from /home/test1/.cache/R/renv/library/breastCancer-abb0afb2/R-4.2/x86_64-pc-linux-gnu/breastCancer/settings/cmAnalysisList.json
+2023-11-06 11:35:36	[Main thread]	INFO	CohortMethod	runCmAnalyses	*** Creating cohortMethodData objects ***
+2023-11-06 11:35:36	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Initiating cluster with 3 threads
+2023-11-06 11:35:36	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:35:36	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:35:36	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:35:36	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:35:36	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:35:36	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:35:38	[Thread 1]	WARN	CohortMethod	getDbCohortMethodData	The excludeDrugsFromCovariates argument has been deprecated. Please explicitly exclude the drug concepts in the covariate settings
+2023-11-06 11:35:38	[Thread 1]	TRACE	CohortMethod	getDbCohortMethodData	Getting cohort method data for target ID 239 and comparator ID 237
+2023-11-06 11:35:38	[Thread 1]	INFO	DatabaseConnector	connect	Connecting using SQL Server driver
+2023-11-06 11:35:38	[Thread 1]	INFO	CohortMethod	getDbCohortMethodData	Constructing target and comparator cohorts
+2023-11-06 11:35:38	[Thread 1]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.128 secs
+2023-11-06 11:35:38	[Thread 1]	INFO	CohortMethod	getDbCohortMethodData	Fetching cohorts from server
+2023-11-06 11:35:38	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 3705 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:38	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 3705 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:38	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 3705 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:38	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 3705 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:38	[Thread 1]	DEBUG	CohortMethod	getDbCohortMethodData	Fetched cohort total rows in target is 1942, total rows in comparator is 1763
+2023-11-06 11:35:38	[Thread 1]	INFO	CohortMethod	getDbCohortMethodData	Fetching cohorts took 0.179 secs
+2023-11-06 11:35:38	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 2 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:38	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 2 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:38	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 2 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:38	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 2 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:38	[Thread 1]	INFO	FeatureExtraction		Sending temp tables to server
+2023-11-06 11:35:39	[Thread 1]	INFO	FeatureExtraction		Constructing features on server
+2023-11-06 11:35:57	[Thread 1]	INFO	DatabaseConnector	executeSql	Executing SQL took 18.9 secs
+2023-11-06 11:35:57	[Thread 1]	INFO	FeatureExtraction		Fetching data from server
+2023-11-06 11:35:57	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 115715 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:57	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 115715 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:57	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 115715 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:57	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 115715 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 6110 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 6110 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 15 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 15 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	INFO	FeatureExtraction		Fetching data took 0.356 secs
+2023-11-06 11:35:58	[Thread 1]	DEBUG	CohortMethod	getDbCohortMethodData	Fetched covariates total count is 115715
+2023-11-06 11:35:58	[Thread 1]	INFO	CohortMethod	getDbCohortMethodData	Fetching outcomes from server
+2023-11-06 11:35:58	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 2405 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 2405 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 2405 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	WARN	DatabaseConnector	convertInteger64ToNumeric	'length(x) = 2405 > 1' in coercion to 'logical(1)'
+2023-11-06 11:35:58	[Thread 1]	INFO	CohortMethod	getDbCohortMethodData	Fetching outcomes took 0.0361 secs
+2023-11-06 11:35:58	[Thread 1]	DEBUG	CohortMethod	getDbCohortMethodData	Fetched outcomes total count is 2405
+2023-11-06 11:35:58	[Thread 1]	INFO	Andromeda	saveAndromeda	Disconnected Andromeda. This data object can no longer be used
+2023-11-06 11:35:58	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Stopping cluster
+2023-11-06 11:35:58	[Main thread]	INFO	CohortMethod	runCmAnalyses	*** Creating study populations ***
+2023-11-06 11:35:58	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:35:58	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:35:58	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:35:58	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Initiating cluster with 3 threads
+2023-11-06 11:35:58	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:35:58	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:35:58	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:35:58	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:35:58	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:35:58	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 59
+2023-11-06 11:36:00	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 60
+2023-11-06 11:36:00	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 61
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:00	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3536 rows
+2023-11-06 11:36:00	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3328 rows
+2023-11-06 11:36:00	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 63
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 274
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 277
+2023-11-06 11:36:00	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:00	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3662 rows
+2023-11-06 11:36:00	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3491 rows
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 281
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 283
+2023-11-06 11:36:00	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 284
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:00	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3672 rows
+2023-11-06 11:36:00	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 285
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 286
+2023-11-06 11:36:00	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 290
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:00	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:00	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3551 rows
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 291
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:00	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 292
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:00	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:00	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3660 rows
+2023-11-06 11:36:00	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3535 rows
+2023-11-06 11:36:00	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Stopping cluster
+2023-11-06 11:36:00	[Main thread]	INFO	CohortMethod	runCmAnalyses	*** Fitting shared propensity score models ***
+2023-11-06 11:36:00	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Initiating cluster with 2 threads
+2023-11-06 11:36:00	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:00	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:00	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:36:00	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:36:00	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:36:00	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:00	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:01	[Thread 1]	INFO	CohortMethod	fun	Fitting propensity model across all outcomes (ignore messages about 'no outcome specified')
+2023-11-06 11:36:01	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:01	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:01	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population without outcome ID
+2023-11-06 11:36:02	[Thread 1]	INFO	CohortMethod	createStudyPopulation	No outcome specified so skipping removing people with prior outcomes
+2023-11-06 11:36:02	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:02	[Thread 1]	INFO	CohortMethod	createStudyPopulation	No outcome specified so not creating outcome and time variables
+2023-11-06 11:36:02	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:02	[Thread 1]	INFO	FeatureExtraction	tidyCovariateData	Removing 4 redundant covariates
+2023-11-06 11:36:02	[Thread 1]	INFO	FeatureExtraction	tidyCovariateData	Removing 3213 infrequent covariates
+2023-11-06 11:36:02	[Thread 1]	INFO	FeatureExtraction	tidyCovariateData	Normalizing covariates
+2023-11-06 11:36:02	[Thread 1]	INFO	FeatureExtraction	tidyCovariateData	Tidying covariates took 0.517 secs
+2023-11-06 11:36:07	[Thread 1]	DEBUG	CohortMethod	createPs	Propensity model fitting finished with status OK
+2023-11-06 11:36:07	[Thread 1]	INFO	CohortMethod	createPs	Creating propensity scores took 5.45 secs
+2023-11-06 11:36:07	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Stopping cluster
+2023-11-06 11:36:07	[Main thread]	INFO	CohortMethod	runCmAnalyses	*** Adding propensity scores to study population objects ***
+2023-11-06 11:36:07	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:07	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Initiating cluster with 10 threads
+2023-11-06 11:36:07	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:09	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:36:09	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:36:09	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:36:09	[Thread 4]	TRACE			Thread 4 initiated
+2023-11-06 11:36:09	[Thread 5]	TRACE			Thread 5 initiated
+2023-11-06 11:36:09	[Thread 7]	TRACE			Thread 7 initiated
+2023-11-06 11:36:09	[Thread 6]	TRACE			Thread 6 initiated
+2023-11-06 11:36:09	[Thread 8]	TRACE			Thread 8 initiated
+2023-11-06 11:36:09	[Thread 9]	TRACE			Thread 9 initiated
+2023-11-06 11:36:09	[Thread 10]	TRACE			Thread 10 initiated
+2023-11-06 11:36:09	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 7]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 10]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 9]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 4]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 5]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 6]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:09	[Thread 8]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:11	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:11	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Stopping cluster
+2023-11-06 11:36:11	[Thread 4]	TRACE			Thread 4 terminated
+2023-11-06 11:36:11	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:36:11	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:11	[Thread 7]	TRACE			Thread 7 terminated
+2023-11-06 11:36:11	[Thread 6]	TRACE			Thread 6 terminated
+2023-11-06 11:36:11	[Thread 8]	TRACE			Thread 8 terminated
+2023-11-06 11:36:11	[Thread 5]	TRACE			Thread 5 terminated
+2023-11-06 11:36:11	[Main thread]	INFO	CohortMethod	runCmAnalyses	*** Trimming/Matching/Stratifying ***
+2023-11-06 11:36:11	[Thread 9]	TRACE			Thread 9 terminated
+2023-11-06 11:36:11	[Thread 10]	TRACE			Thread 10 terminated
+2023-11-06 11:36:11	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Initiating cluster with 10 threads
+2023-11-06 11:36:12	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:36:12	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:36:12	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:36:12	[Thread 5]	TRACE			Thread 5 initiated
+2023-11-06 11:36:12	[Thread 4]	TRACE			Thread 4 initiated
+2023-11-06 11:36:12	[Thread 7]	TRACE			Thread 7 initiated
+2023-11-06 11:36:12	[Thread 8]	TRACE			Thread 8 initiated
+2023-11-06 11:36:12	[Thread 9]	TRACE			Thread 9 initiated
+2023-11-06 11:36:12	[Thread 10]	TRACE			Thread 10 initiated
+2023-11-06 11:36:12	[Thread 6]	TRACE			Thread 6 initiated
+2023-11-06 11:36:12	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 6]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 7]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 4]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 5]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 8]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 10]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:12	[Thread 9]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:14	[Thread 6]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3662
+2023-11-06 11:36:14	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:14	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3328
+2023-11-06 11:36:14	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3536
+2023-11-06 11:36:14	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3491
+2023-11-06 11:36:14	[Thread 9]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:14	[Thread 10]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:14	[Thread 8]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3672
+2023-11-06 11:36:14	[Thread 7]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:14	[Thread 5]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:15	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3551
+2023-11-06 11:36:15	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:15	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3660
+2023-11-06 11:36:15	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3535
+2023-11-06 11:36:15	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Stopping cluster
+2023-11-06 11:36:15	[Thread 4]	TRACE			Thread 4 terminated
+2023-11-06 11:36:15	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:36:15	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:15	[Thread 6]	TRACE			Thread 6 terminated
+2023-11-06 11:36:15	[Thread 5]	TRACE			Thread 5 terminated
+2023-11-06 11:36:15	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:15	[Thread 9]	TRACE			Thread 9 terminated
+2023-11-06 11:36:15	[Thread 7]	TRACE			Thread 7 terminated
+2023-11-06 11:36:15	[Thread 8]	TRACE			Thread 8 terminated
+2023-11-06 11:36:15	[Thread 10]	TRACE			Thread 10 terminated
+2023-11-06 11:36:15	[Main thread]	INFO	CohortMethod	runCmAnalyses	*** Prefiltering covariates for outcome models ***
+2023-11-06 11:36:15	[Main thread]	INFO	CohortMethod	runCmAnalyses	*** Fitting outcome models for outcomes of interest ***
+2023-11-06 11:36:15	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Initiating cluster with 4 threads
+2023-11-06 11:36:15	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:36:15	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:36:15	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:36:15	[Thread 4]	TRACE			Thread 4 initiated
+2023-11-06 11:36:15	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:15	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:15	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:15	[Thread 4]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:16	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:16	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:16	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:16	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 3]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 1]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 2]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 4]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.467 secs
+2023-11-06 11:36:17	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: ILL CONDITIONED, CANNOT FIT
+2023-11-06 11:36:17	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.473 secs
+2023-11-06 11:36:17	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.473 secs
+2023-11-06 11:36:17	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.475 secs
+2023-11-06 11:36:17	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00423 secs
+2023-11-06 11:36:17	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:17	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00415 secs
+2023-11-06 11:36:17	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:17	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00408 secs
+2023-11-06 11:36:17	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:17	[Thread 3]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 2]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 1]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.139 secs
+2023-11-06 11:36:17	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.135 secs
+2023-11-06 11:36:17	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.137 secs
+2023-11-06 11:36:17	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:17	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00442 secs
+2023-11-06 11:36:17	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:17	[Thread 3]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 1]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 2]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:17	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.139 secs
+2023-11-06 11:36:17	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.144 secs
+2023-11-06 11:36:17	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.143 secs
+2023-11-06 11:36:17	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:17	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Stopping cluster
+2023-11-06 11:36:17	[Main thread]	INFO	CohortMethod	runCmAnalyses	*** Fitting outcome models for other outcomes ***
+2023-11-06 11:36:17	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:17	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:36:17	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:17	[Thread 4]	TRACE			Thread 4 terminated
+2023-11-06 11:36:17	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Initiating cluster with 4 threads
+2023-11-06 11:36:18	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:36:18	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:36:18	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:36:18	[Thread 4]	TRACE			Thread 4 initiated
+2023-11-06 11:36:18	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:18	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:18	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:18	[Thread 4]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:19	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 781705
+2023-11-06 11:36:19	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 501343
+2023-11-06 11:36:19	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 903031
+2023-11-06 11:36:19	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 929542
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00482 secs
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00483 secs
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00484 secs
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00485 secs
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 951980
+2023-11-06 11:36:19	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 958999
+2023-11-06 11:36:19	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1368823
+2023-11-06 11:36:19	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1385645
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00447 secs
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00442 secs
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00442 secs
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00447 secs
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1394333
+2023-11-06 11:36:19	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1401581
+2023-11-06 11:36:19	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1502877
+2023-11-06 11:36:19	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1593397
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:19	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:19	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00436 secs
+2023-11-06 11:36:19	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00434 secs
+2023-11-06 11:36:19	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00431 secs
+2023-11-06 11:36:19	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00444 secs
+2023-11-06 11:36:19	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:19	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1745072
+2023-11-06 11:36:19	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:19	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:19	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1750928
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:19	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:19	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1728903
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 1701651
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00357 secs
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00357 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19004969
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.0038 secs
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00374 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19003296
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00358 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19010564
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19020092
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3589 rows
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3589
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19021959
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3646 rows
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3646
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00405 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00375 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19028286
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19029327
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00405 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00374 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19035953
+2023-11-06 11:36:20	[Thread 3]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19033280
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.195 secs
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19051865
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	WARN	dbplyr	warn_drop_order_by	ORDER BY is ignored in subqueries without LIMIT ℹ Do you need to move arrange() later in the pipeline or use window_order() instead?
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00382 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19068894
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.193 secs
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: OK
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19070680
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00414 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19077457
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.0038 secs
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 19110712
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00387 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 35603563
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00379 secs
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 35604657
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00394 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 35604680
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00373 secs
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00371 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 35606631
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00374 secs
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 40161488
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 35606465
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00392 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 40168938
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00433 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00375 secs
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00367 secs
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.0034 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 40242044
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 42628962
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 42709323
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 42800778
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00392 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.0038 secs
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00368 secs
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 43013171
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00367 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 42899259
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 43012263
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 43532423
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00372 secs
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 45774966
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00399 secs
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 45775686
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00411 secs
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00373 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 3]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 3]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00353 secs
+2023-11-06 11:36:20	[Thread 3]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 4]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 4]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00334 secs
+2023-11-06 11:36:20	[Thread 4]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 45775689
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToStart argument is deprecated. Please use the startAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	WARN	CohortMethod	createStudyPopulation	The addExposureDaysToEnd argument is deprecated. Please use the endAnchor argument instead.
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	createStudyPopulation	Creating study population for outcome ID 45892906
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with prior outcomes (if any)
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	createStudyPopulation	Removing subjects with less than 1 day(s) at risk (if any)
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 1]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 1]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00359 secs
+2023-11-06 11:36:20	[Thread 1]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	createStudyPopulation	Study population has 3675 rows
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	matchOnPs	Population size after matching is 3675
+2023-11-06 11:36:20	[Thread 2]	TRACE	CohortMethod	fitOutcomeModel	Fitting outcome model
+2023-11-06 11:36:20	[Thread 2]	INFO	CohortMethod	fitOutcomeModel	Fitting outcome model took 0.00338 secs
+2023-11-06 11:36:20	[Thread 2]	DEBUG	CohortMethod	fitOutcomeModel	Outcome model fitting status is: NO OUTCOMES FOUND FOR POPULATION, CANNOT FIT
+2023-11-06 11:36:20	[Main thread]	TRACE	CohortMethod	runCmAnalyses	Stopping cluster
+2023-11-06 11:36:20	[Main thread]	INFO	breastCancer	runCohortMethod	Summarizing results 
+2023-11-06 11:36:20	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:20	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:36:20	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:20	[Thread 4]	TRACE			Thread 4 terminated
+2023-11-06 11:36:20	[Main thread]	TRACE	CohortMethod	loadCmAnalysisList	Loading cmAnalysisList from /home/test1/.cache/R/renv/library/breastCancer-abb0afb2/R-4.2/x86_64-pc-linux-gnu/breastCancer/settings/cmAnalysisList.json
+2023-11-06 11:36:20	[Main thread]	INFO	breastCancer	runCohortMethod	Computing covariate balance 
+2023-11-06 11:36:20	[Main thread]	TRACE	breastCancer	runCohortMethod	Initiating cluster with 3 threads
+2023-11-06 11:36:21	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:36:21	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:36:21	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:36:21	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:21	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:21	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:21	[Thread 2]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o60_a1.rds
+2023-11-06 11:36:21	[Thread 3]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o61_a1.rds
+2023-11-06 11:36:21	[Thread 1]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o59_a1.rds
+2023-11-06 11:36:22	[Thread 1]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:22	[Thread 3]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:22	[Thread 2]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:23	[Thread 1]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.609 secs
+2023-11-06 11:36:23	[Thread 2]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.612 secs
+2023-11-06 11:36:23	[Thread 3]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.613 secs
+2023-11-06 11:36:23	[Thread 1]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o63_a1.rds
+2023-11-06 11:36:23	[Thread 2]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o274_a1.rds
+2023-11-06 11:36:23	[Thread 3]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o277_a1.rds
+2023-11-06 11:36:23	[Thread 1]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:23	[Thread 2]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:23	[Thread 3]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:23	[Thread 1]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.382 secs
+2023-11-06 11:36:23	[Thread 3]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.385 secs
+2023-11-06 11:36:23	[Thread 2]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.386 secs
+2023-11-06 11:36:23	[Thread 1]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o281_a1.rds
+2023-11-06 11:36:23	[Thread 3]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o283_a1.rds
+2023-11-06 11:36:23	[Thread 2]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o284_a1.rds
+2023-11-06 11:36:23	[Thread 1]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:23	[Thread 3]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:23	[Thread 2]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:24	[Thread 1]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.362 secs
+2023-11-06 11:36:24	[Thread 3]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.362 secs
+2023-11-06 11:36:24	[Thread 2]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.364 secs
+2023-11-06 11:36:24	[Thread 1]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o285_a1.rds
+2023-11-06 11:36:24	[Thread 3]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o286_a1.rds
+2023-11-06 11:36:24	[Thread 2]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o290_a1.rds
+2023-11-06 11:36:24	[Thread 1]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:24	[Thread 3]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:24	[Thread 2]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:24	[Thread 1]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.363 secs
+2023-11-06 11:36:24	[Thread 3]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.364 secs
+2023-11-06 11:36:24	[Thread 2]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.364 secs
+2023-11-06 11:36:24	[Thread 1]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o291_a1.rds
+2023-11-06 11:36:24	[Thread 3]	TRACE	breastCancer	fun	Creating covariate balance file /home/test1/breastCancer/result/balance/bal_t239_c237_o292_a1.rds
+2023-11-06 11:36:24	[Thread 1]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:24	[Thread 3]	TRACE	CohortMethod	computeCovariateBalance	Computing covariate balance
+2023-11-06 11:36:24	[Thread 1]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.354 secs
+2023-11-06 11:36:24	[Thread 3]	INFO	CohortMethod	computeCovariateBalance	Computing covariate balance took 0.354 secs
+2023-11-06 11:36:24	[Main thread]	TRACE	breastCancer	runCohortMethod	Stopping cluster
+2023-11-06 11:36:24	[Main thread]	INFO	breastCancer	execute	Packaging results 
+2023-11-06 11:36:24	[Main thread]	INFO	breastCancer	exportAnalyses	Exporting analyses 
+2023-11-06 11:36:24	[Main thread]	INFO	breastCancer	exportAnalyses	- cohort_method_analysis table 
+2023-11-06 11:36:24	[Main thread]	TRACE	CohortMethod	loadCmAnalysisList	Loading cmAnalysisList from /home/test1/.cache/R/renv/library/breastCancer-abb0afb2/R-4.2/x86_64-pc-linux-gnu/breastCancer/settings/cmAnalysisList.json
+2023-11-06 11:36:24	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:24	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:36:24	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:24	[Main thread]	INFO	breastCancer	exportAnalyses	- covariate_analysis table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportExposures	Exporting exposures 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportExposures	- exposure_of_interest table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportOutcomes	Exporting outcomes 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportOutcomes	- outcome_of_interest table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportOutcomes	- negative_control_outcome table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMetadata	Exporting metadata 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMetadata	- database table 
+2023-11-06 11:36:25	[Main thread]	INFO	DatabaseConnector	connect	Connecting using SQL Server driver
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMetadata	- exposure_summary table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMetadata	- comparison_summary table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMetadata	- attrition table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMetadata	- covariate table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMetadata	- cm_follow_up_dist table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMainResults	Exporting main results 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMainResults	- cohort_method_result table 
+2023-11-06 11:36:25	[Main thread]	INFO	breastCancer	exportMainResults	  Performing empirical calibration on main effects 
+2023-11-06 11:36:25	[Main thread]	TRACE	breastCancer	exportMainResults	Initiating cluster with 4 threads
+2023-11-06 11:36:26	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:36:26	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:36:26	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:36:26	[Thread 4]	TRACE			Thread 4 initiated
+2023-11-06 11:36:26	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:26	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:26	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:26	[Thread 4]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:26	[Main thread]	TRACE	breastCancer	exportMainResults	Stopping cluster
+2023-11-06 11:36:26	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:26	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:36:26	[Thread 4]	TRACE			Thread 4 terminated
+2023-11-06 11:36:26	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:26	[Main thread]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetSubjects because value below minimum 
+2023-11-06 11:36:26	[Main thread]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorSubjects because value below minimum 
+2023-11-06 11:36:26	[Main thread]	INFO	breastCancer	enforceMinCellValue	   censoring 6 values (9.5%) from targetOutcomes because value below minimum 
+2023-11-06 11:36:26	[Main thread]	INFO	breastCancer	enforceMinCellValue	   censoring 5 values (7.9%) from comparatorOutcomes because value below minimum 
+2023-11-06 11:36:26	[Main thread]	INFO	breastCancer	exportMainResults	- likelihood_profile table 
+2023-11-06 11:36:26	[Main thread]	INFO	breastCancer	exportMainResults	- cm_interaction_result table 
+2023-11-06 11:36:26	[Main thread]	INFO	breastCancer	exportDiagnostics	Exporting diagnostics 
+2023-11-06 11:36:26	[Main thread]	INFO	breastCancer	exportDiagnostics	- covariate_balance table 
+2023-11-06 11:36:27	[Main thread]	INFO	breastCancer	exportDiagnostics	- preference_score_dist table 
+2023-11-06 11:36:27	[Main thread]	INFO	breastCancer	exportDiagnostics	- propensity_model table 
+2023-11-06 11:36:27	[Main thread]	INFO	breastCancer	exportDiagnostics	- kaplan_meier_dist table 
+2023-11-06 11:36:27	[Main thread]	INFO	breastCancer	exportDiagnostics	  Computing KM curves 
+2023-11-06 11:36:27	[Main thread]	TRACE	breastCancer	exportDiagnostics	Initiating cluster with 4 threads
+2023-11-06 11:36:27	[Thread 1]	TRACE			Thread 1 initiated
+2023-11-06 11:36:27	[Thread 2]	TRACE			Thread 2 initiated
+2023-11-06 11:36:27	[Thread 3]	TRACE			Thread 3 initiated
+2023-11-06 11:36:27	[Thread 4]	TRACE			Thread 4 initiated
+2023-11-06 11:36:27	[Thread 2]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:27	[Thread 1]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:27	[Thread 4]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:27	[Thread 3]	TRACE			AndromedateTempFolder set to /tmp/andromedaTemp
+2023-11-06 11:36:28	[Thread 1]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 59, analysis 1
+2023-11-06 11:36:28	[Thread 2]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 60, analysis 1
+2023-11-06 11:36:28	[Thread 3]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 61, analysis 1
+2023-11-06 11:36:28	[Thread 4]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 63, analysis 1
+2023-11-06 11:36:28	[Thread 1]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 2]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 3]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 1]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 2]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 4]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 3]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 4]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 2]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 274, analysis 1
+2023-11-06 11:36:28	[Thread 1]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 277, analysis 1
+2023-11-06 11:36:28	[Thread 3]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 281, analysis 1
+2023-11-06 11:36:28	[Thread 4]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 283, analysis 1
+2023-11-06 11:36:28	[Thread 2]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 1]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 4]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 3]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 2]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 1]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 4]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 3]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 1]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 285, analysis 1
+2023-11-06 11:36:28	[Thread 2]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 284, analysis 1
+2023-11-06 11:36:28	[Thread 4]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 290, analysis 1
+2023-11-06 11:36:28	[Thread 3]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 286, analysis 1
+2023-11-06 11:36:28	[Thread 4]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 2]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 1]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 3]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 4]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 1]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 2]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 3]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:28	[Thread 2]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 292, analysis 1
+2023-11-06 11:36:28	[Thread 1]	TRACE	breastCancer	fun	Preparing KM plot for target 239, comparator 237, outcome 291, analysis 1
+2023-11-06 11:36:29	[Thread 2]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:29	[Thread 1]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from targetAtRisk because value below minimum 
+2023-11-06 11:36:29	[Thread 2]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:29	[Thread 1]	INFO	breastCancer	enforceMinCellValue	   censoring 0 values (0%) from comparatorAtRisk because value below minimum 
+2023-11-06 11:36:29	[Main thread]	TRACE	breastCancer	exportDiagnostics	Stopping cluster
+2023-11-06 11:36:29	[Thread 1]	TRACE			Thread 1 terminated
+2023-11-06 11:36:29	[Thread 2]	TRACE			Thread 2 terminated
+2023-11-06 11:36:29	[Main thread]	INFO	breastCancer	exportDiagnostics	  Writing to single csv file 
+2023-11-06 11:36:29	[Thread 3]	TRACE			Thread 3 terminated
+2023-11-06 11:36:29	[Thread 4]	TRACE			Thread 4 terminated
+2023-11-06 11:36:29	[Main thread]	INFO	breastCancer	exportResults	Adding results to zip file 
+2023-11-06 11:36:29	[Main thread]	INFO	breastCancer	exportResults	Results are ready for sharing at:/home/test1/breastCancer/result/export/Results_TMU_CRD.zip 

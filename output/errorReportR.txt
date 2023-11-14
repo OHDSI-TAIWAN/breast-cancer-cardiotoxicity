@@ -1,0 +1,38 @@
+Thread: Main
+Message:  Mismatch between required and installed package versions. Did you forget to run renv::restore()?
+- Package rlang version 1.1.2 should be 1.0.1
+- Package cli version 3.6.1 should be 3.1.1
+- Package magrittr version 2.0.3 should be 2.0.2
+Level:  FATAL
+Time:  2023-11-06 07:29:00
+
+Stack trace:
+5: h(simpleError(msg, call))
+4: .handleSimpleError(function (condition) 
+{
+    if (is(condition, "error")) {
+        log("FATAL", c
+3: VerifyDependencies.R#34: stop(message)
+2: Main.R#130: verifyDependencies()
+1: execute(connectionDetails = connectionDetails, cdmDatabaseSchema = cdmDatabaseSchema, cohortData
+
+R version:
+R version 4.2.2 Patched (2022-11-10 r83330)
+
+Platform:
+x86_64-pc-linux-gnu
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- breastCancer (0.0.1)
+- DatabaseConnector (5.0.2)
+
+
